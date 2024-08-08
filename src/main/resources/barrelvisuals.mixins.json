@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.b04ka.barrelvisuals.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "barrelvisuals.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "client.features.heldItemTooltips.ItemTooltipsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
